@@ -1,4 +1,6 @@
-# Introduction to SASS
+# Getting Started with SASS
+
+![Getting Started](images/getting-started.jpg)
 
 ## Problems with CSS
 
