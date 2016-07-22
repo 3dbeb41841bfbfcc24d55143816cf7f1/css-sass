@@ -27,7 +27,7 @@
 ### Examples:
 
 * `ERB`: evaluate Ruby expressions in an `HTML`, `CSS`, or other source file.
-* `SLIM`: translate `SLIM` files into `HTML`.
+* `JADE` (now known as `PUG`): translate `JADE` files into `HTML`.
 * `CoffeeScript`: compile CoffeeScript source code into `JavaScript`.
 * `SASS`: compile `SASS` source code into `CSS` source code.
 * `LESS`: compile `LESS` source code into `CSS` source code.
@@ -38,7 +38,7 @@ Sometimes we cannot alter the target language of an execution environment
 (such as a browser), but we want to write our source code in something other
 than what the target execution environment supports.
 
-* `SLIM` instead of `HTML`
+* `JADE` instead of `HTML`
 * `CoffeeScript` instead of `JavaScript`
 * `SASS` instead of `CSS`
 
