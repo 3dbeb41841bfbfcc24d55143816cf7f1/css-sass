@@ -1,0 +1,34 @@
+$base-color: green;
+$amount1: 10%;
+$amount2: 20%;
+
+@mixin customBorder($radius, $color) {
+  border-style: solid;
+  border-color: $color;
+  border-radius: $radius;
+}
+
+@mixin elbowRoom($margin, $padding) {
+  margin: $margin;
+  padding: $padding;
+}
+
+p {
+  color: $base-color;
+}
+
+.news {
+  @include customBorder(10px, lighten($base-color, $amount2));
+  @include elbowRoom(5px, 10px);
+  h1 {
+    color: darken( $base-color, $amount1 );
+  }
+}
+
+.weather {
+  @include customBorder(20px, lighten($base-color, $amount2));
+  @include elbowRoom(10px, 20px);
+  h1 {
+    color: lighten( $base-color, $amount1 );
+  }
+}
